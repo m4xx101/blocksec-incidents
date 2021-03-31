@@ -50,7 +50,12 @@ A curated list of blockchain security incidents including exchange hacks, DeFi c
   References:  
     * [Twitter announcement](https://twitter.com/Exmo_Com/status/1361301916618211330)
 
-
+* Project: **Binance Exchange**  
+  Date: 2021-03-18  
+  Summary: Incorrect FileCoin API usage resulted in double credit  
+  Impact: Unknown  
+  References:  
+    * [Incident Report: Accurate Bookkeeping with Lotus APIs](https://filecoin.io/blog/posts/incident-report-accurate-bookkeeping-with-lotus-apis/) by FileCoin
 
 ### DeFi and Smart Contract Incidents
 
@@ -141,10 +146,96 @@ Incidents involving DeFi, DEX, NFT, and other smart contract projects
 
 * Project: **Yield Finance**  
   Date: 2021-02-27  
-  Summary: Whitehat hack, $166K DAI lost and recovered.  
+  Summary: Whitehat hack, $166K DAI lost and later recovered.  
   Impact: N/A. 
   References:
     * [Announcement Tweet](https://twitter.com/YeldF/status/1365623299552772096)
+
+* Project: **Zerion**  
+  Date: 2021-03-04 
+  Summary: Tricked into listing a malicious Balancer clone.  
+  Impact: $30K  
+  References:
+    * [Post mortem on Zerion’s asset phishing attack](https://blog.zerion.io/post-mortem-on-zerions-asset-phishing-attack-4fa9516414a3) by Evgeny Yurtaev
+
+* Project: **PAID Network**  
+  Date: 2021-03-05  
+  Summary: Private keys compromised 
+  Impact: $160M (PAID) minted and sold. 
+  References:
+    * [PAID Network Attack Postmortem, March 7, 2021](https://paidnetwork.medium.com/paid-network-attack-postmortem-march-7-2021-9e4c0fef0e07) by PAID
+    * [Analysis of Paid Network’s Hacked Event](https://slowmist.medium.com/slow-mist-analysis-of-paid-networks-hacked-event-b13a44415131) by SlowMist
+
+* Project: **Kava**  
+  Date: 2021-03-05  
+  Summary: Flaw in accounting logic exploited. 
+  Impact: No funds were lost. 
+  References:
+    * [Kava 5 Launch Post-Mortem](https://medium.com/kava-labs/kava-5-launch-post-mortem-e81a4ae01666) by Kava
+
+* Project: **DODO**  
+  Date: 2021-03-09  
+  Summary: Initialization function was left callable. 
+  Impact: $3.8M lost  
+  References:
+    * [DODO Pool Incident Postmortem: With a Little Help from Our Friends](https://medium.com/dodoex/dodo-pool-incident-postmortem-with-a-little-help-from-our-friends-327e66872d42) by DODO Breeder
+    * [DODO - REKT](https://www.rekt.news/au-dodo-rekt/) by rekt
+
+* Project: **True Seigniorage Dollar**  
+  Date: 2021-03-13  
+  Summary: Upgrade forced by taking over DAO. 
+  Impact: 11.8B TSD minted and sold  
+  References:
+    * [Announcement Tweet](https://twitter.com/trueseigniorage/status/1370956726489415683)
+
+* Project: **Roll**  
+  Date: 2021-03-14  
+  Summary: Private keys compromised. 
+  Impact: $5.7M lost  
+  References:
+    * [Roll - REKT](https://www.rekt.news/roll-rekt/) by rekt
+    * [A $5.7 Million Crypto Heist Sent Social Tokens into Free Fall](https://decrypt.co/61349/a-5-7-million-crypto-heist-leaves-social-tokens-in-freefall) by Tim Hakki (Decrypt)
+
+* Project: **Cream Finance**  
+  Date: 2021-03-15  
+  Summary: DApp attacked by hijacking DNS  
+  Impact: Unknown  
+  References:
+    * [Announcement Tweet](https://twitter.com/CreamdotFinance/status/1371448627663491088)
+    * [Postmortem Report of DNS Hijacking](https://medium.com/cream-finance/postmortem-report-of-dns-hijacking-66ab9c6ce63d) by CREAM
+
+* Project: **PancakeSwap Finance**  
+  Date: 2021-03-15  
+  Summary: DApp attacked by hijacking DNS  
+  Impact: Unknown  
+  References:
+    * [Announcement Tweet](https://twitter.com/PancakeSwap/status/1371470368058183687)
+
+* Project: **Nifty Gateway**  
+  Date: 2021-03-15  
+  Summary: Account hijacking  
+  Impact: NFTs stolen  
+  References:
+    * [Announcement Tweet](https://twitter.com/niftygateway/status/1371479363036778503)
+
+* Project: **Iron Finance**  
+  Date: 2021-03-16  
+  Summary: vFarm reward misconfiguration  
+  Impact: 170K SIL lost  
+  References:
+    * [Iron Finance vFarms incident Post-mortem (16 March 2021)](https://ironfinance.medium.com/iron-finance-vfarms-incident-post-mortem-16-march-2021-114e58d1eaac) by Iron Finance
+
+* Project: **SIL Finance**  
+  Date: 2021-03-18  
+  Summary: Contract permissions exploited.  
+  Impact: $12.1M lost and later returned  
+  References:
+    * [Follow Up on the Service Outage & All Funds Are SAFU](https://sil-finance.medium.com/follow-up-on-the-service-outage-all-funds-are-safu-7e90f91d8905) by SIL finance
+
+
+
+
+
 
 ## Blockchain Incidents
 
@@ -163,7 +254,7 @@ Incidents involving blockchain protocols (e.g. 51% attacks), node and wallet sof
   Impact: Network slow down.  
   References:
     * [Spam attack (test?) on NANO this morning. 60,000 transactions dumped in 10 minutes...](https://www.reddit.com/r/nanocurrency/comments/l1yo5g/spam_attack_test_on_nano_this_morning_60000/) by u/Qwahzi
-
+    * [Recent DoS nano network attack and V21.3 fixes](https://medium.com/nanocurrency/recent-dos-nano-network-attack-and-v21-3-fixes-97b9b7297f9) by Nano
 
 * Project: **Verge**  
   Date: 2021-02-15  
