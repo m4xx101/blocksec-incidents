@@ -1,5 +1,5 @@
-Awesome Blocksec Incidents
-===========================
+Blocksec Incidents
+==================
 
 A curated list of blockchain security incidents including exchange hacks, DeFi compromises, blockchain attacks, and others.
 
